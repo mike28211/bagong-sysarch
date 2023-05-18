@@ -2,7 +2,9 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
-import Image from 'react-bootstrap/Image'
+import LoginPage from '../pages/loginPage';
+
+
 
 
 function CollapsibleExample() {
@@ -28,7 +30,7 @@ function CollapsibleExample() {
             </NavDropdown>
           </Nav>
           <Nav>
-            <Nav.Link href="example">Login</Nav.Link>
+            <Nav.Link href="/login">Login</Nav.Link>
             <Nav.Link eventKey={2} href="#memes">
               Register
             </Nav.Link>
